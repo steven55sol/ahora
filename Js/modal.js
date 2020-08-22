@@ -3,10 +3,12 @@ function mostrar(){
 let box = document.getElementById("regalo");
 let cartel = document.getElementById("modal");
 let msj = document.getElementById("mensaje");
+let globo = document.getElementById("globos");
 
 box.addEventListener('click', ()=>{
     cartel.style.display="block"; 
     msj.style.display="block";
+    globo.style.display="block";
 });
 
 }

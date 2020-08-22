@@ -185,6 +185,132 @@ body{
     font-family: 'Pacifico';
 }
 
+.globo_rosa{
+    position: absolute;
+    bottom: 0;
+    left: -20px;
+    animation: globo 8s infinite;
+}
+
+.globo_azul{
+    position: absolute;
+    width: 95px;
+    height: 250px;
+    bottom: 0;
+    left: 230px;
+    animation: globo2 10s infinite;
+}
+
+.globo_rojo{
+    position: absolute;
+    width: 235px;
+    bottom: 0px;
+    left: 350px;
+    animation: globo3 11s infinite ease;
+}
+
+.globo_azul2{
+    position: absolute;
+    width: 85px;
+    height: 200px;
+    bottom: 0;
+    left: 340px;
+    animation: globo2 12s infinite;
+}
+
+
+.globo_azul3{
+    position: absolute;
+    width: 85px;
+    height: 200px;
+    bottom: 0;
+    left: 145px;
+    animation: globo4 8s infinite;
+}
+
+.globo_rojo2{
+    position: absolute;
+    width: 235px;
+    bottom: 0px;
+    left: 540px;
+    animation: globo3 12s infinite ease;
+}
+
+.globo_azul4{
+    position: absolute;
+    width: 85px;
+    height: 200px;
+    bottom: 0;
+    left: 750px;
+    animation: globo2 14s infinite;
+}
+
+.globo_azul5{
+    position: absolute;
+    width: 85px;
+    height: 200px;
+    bottom: 0;
+    left: 850px;
+    animation: globo4 9s infinite;
+}
+
+.globo_rosa2{
+    position: absolute;
+    bottom: 0;
+    left: 940px;
+    animation: globo 10s infinite;
+}
+
+
+.globo_rosa3{
+    position: absolute;
+    bottom: 200px;
+    left: 1080px;
+    animation: globo 10s infinite;
+}
+@keyframes globo{
+    from{
+        bottom:0;
+        opacity: 0;
+    }
+    to{
+        bottom: 380px;
+        
+    }
+}
+
+@keyframes globo2{
+    from{
+        bottom: 0px;
+        opacity:0;
+    }
+    to{
+        bottom: 200px; 
+    }
+}
+
+@keyframes globo3{
+    from{
+        bottom: 150px;
+        opacity: 0;
+    }
+    to{
+        bottom: 340px;
+    }
+}
+
+
+@keyframes globo4{
+    from{
+        bottom: 200px;
+        opacity: 0;
+    }
+    to{
+        bottom: 400px;
+    }
+}
+
+
 @media screen and (min-width:360px){
    
 .pocoyo{
@@ -279,15 +405,114 @@ body{
         visibility: visible;
         top:67%;
     }
+    
 }
 
     
-.modal{
-        left:0px;
+    .modal{
+        left:10px;
+        top: 78px; 
+        width: 95%;
+        border-radius:0px;
+    }
+    .title{
+       font-size: 38px;
+    }
+    
+    .title-mensaje{
+        position: absolute;
         width: 100%;
+    }
+    
+    .globo{
+        display: none;
+    }
+
+    .globo_rosa{
+        width: 145px;
+    }
+    .globo_azul{
+        width: 50px;
+        height: 140px;
+        left: 80px;
+    }
+    .globo_rojo{
+        animation: globo3 6s infinite;
+        width: 145px;
+        left: 130px;
+    }
+    .globo_azul2{
+        width: 80px;
+        left: 180px;
+    }
+    
+    .globo_azul3{
+        animation: globo 10s infinite;
+        left: 110px;
+    }
+    
+    .globo_rojo2{
+       display: none;
+    }
+    
+    .globo_rosa3{
+        width: 80px;
+        left:260px; 
+        animation: globo 20s infinite;
+    }
+
+    .globo_azul4{
+        display: none;
+    }
+
+    .globo_azul5{
+        display: none;
+    }
+
+    .globo_rosa2{
+        display: none;
+    }
+    
+@keyframes globo{
+    from{
+        bottom:0;
+        opacity: 0;
+    }
+    to{
+        bottom: 450px;
+        
     }
 }
 
-.title{
-    font-size: 38px;
+@keyframes globo2{
+    from{
+        bottom: 0px;
+        opacity:0;
+    }
+    to{
+        bottom: 350px; 
+    }
+}
+
+@keyframes globo3{
+    from{
+        bottom: 100px;
+        opacity: 0;
+    }
+    to{
+        bottom: 250px;
+    }
+}
+
+@keyframes globo4{
+    from{
+        bottom: 90px;
+        opacity: 0;
+    }
+    to{
+        bottom: 430px;
+    }
+}
+
+
 }
