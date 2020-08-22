@@ -20,7 +20,7 @@ function cerrar(){
     
 cerrar.addEventListener('click', ()=>{
     cartel.style.display="none"; 
-     msj.style.display="none";
+    msj.style.display="none";
 });
     
 }
