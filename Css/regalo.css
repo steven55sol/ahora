@@ -338,8 +338,8 @@ body{
 .pocoyo3{
     position: absolute;
     width: 100px;
-    bottom: 25px;
     left: 180px;
+    bottom: 25px;
     visibility: hidden;
     animation: pocoyo2 10s linear infinite;
     animation-delay: 13s;
